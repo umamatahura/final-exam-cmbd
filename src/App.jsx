@@ -19,7 +19,6 @@ function App() {
   const handleSearch = (e) => {
     e.preventDefault();
     setSubmit((prev) => `${prev} submit`);
-    setSearchText('');
   }
 
 
